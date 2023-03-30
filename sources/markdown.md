@@ -69,43 +69,28 @@ X = (age <=30, student = "yes", credit_rating = "fair", buys_computer = "yes")
 P(X|C):
 
 - P(X|income = "low")
-  $$
   0.25 * 1 * 0.5 * 0.75 = 0.09375
-  $$
 
 - P(X|income = "medium")
-  $$
   0.333333 * 0.333333 * 0.5 * 0.666667 = 0.037036981
-  $$
 
 - P(X|income = "high")
-  $$
   0.5 * 0.25 * 0.75 * 0.5 = 0.046875
-  $$
 
 P(X|C)*P(C):
 
 - C1:
-  $$
   0.09375*0.285714 = 0.026785688
-  $$
 
 - C2:
-  $$
   0.037036981*0.428571 = 0.015872976
-  $$
 
 - C3:
-  $$
   0.046875*0.285714 = 0.013392844
-  $$
 
 Yang memiliki nilai tertinggi adalah C1 atau income = "low", jadi jika ada inputan baru dengan data (`age <=30, student = "yes", credit_rating = "fair", buys_computer = "yes"`) tapi tidak ada data income, maka kemungkinan besar income-nya adalah low.
 
 
-$$
-
-$$
 
 ## Metode Gaussian
 
@@ -156,15 +141,11 @@ Misal ada data baru seperti di bawah ini:
 
 Menggunakan persamaan Gaussian dengan rumus:
 
-$
 g(x, \mu, \sigma)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{x {μ^2}}{2 \sigma^2}}
-$
 
 dengan x adalah tiap data baru tadi, σ (sigma) adalah standar deviasi dan μ (mu) adalah nilai mean, misal:
 
-$
 g(x, \mu, \sigma)=\frac{1}{\sqrt{2\pi}*0.57735}e^{-\frac{1*1.5^2}{2*0.57735^2}}
-$
 
 Maka diperoleh:
 
