@@ -156,7 +156,7 @@ Misal ada data baru seperti di bawah ini:
 
 Menggunakan persamaan Gaussian dengan rumus:
 $$
-g(x, \mu, \sigma)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{{x \mu}^2}{2 \sigma^2}}
+g(x, \mu, \sigma)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{x {μ^2}}{2 \sigma^2}}
 $$
 dengan x adalah tiap data baru tadi, σ (sigma) adalah standar deviasi dan μ (mu) adalah nilai mean, misal:
 $$
